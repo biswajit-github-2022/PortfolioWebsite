@@ -1,23 +1,24 @@
-const logotext = "JOHN";
+const logotext = "BISWAJIT";
 const meta = {
-    title: "John Doe",
+    title: "Biswajit Rana",
     description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m John Doe",
+    title: "I’m Biswajit Rana",
     animated: {
         first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        second: "I love studying DeepLearning models",
+        third: "I develop Websites for AI applications",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://images.unsplash.com/photo-1514790193030-c89d266d5a9d",
+    description: "Currently doing M.Sc. in Data science from \n Ramakrishna Mission Vivekananda Educational and Research Institute",
+    // your_img_url: "https://raw.githubusercontent.com/biswajit-github-2022/private-repo/refs/heads/main/Snapchat-1239211503.jpg?token=GHSAT0AAAAAAC7PSH454GP26ZD5RCR2XD6GZ6CBCKQ",
+    your_img_url: "https://cdn.pixabay.com/photo/2022/10/24/14/48/forest-7543646_1280.jpg",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About my self",
+    aboutme: "I am Currently doing Masters (M.Sc) in Data Science (Big Data Analytics) in 4th Semester from Ramakrishna Mission Vivekananda Educational and Research Institute",
 };
 const worktimeline = [{
         jobtitle: "Designer of week",
@@ -38,10 +39,10 @@ const worktimeline = [{
 
 const skills = [{
         name: "Python",
-        value: 90,
+        value: 95,
     },
     {
-        name: "Djano",
+        name: "Pytorch",
         value: 85,
     },
     {
@@ -53,7 +54,11 @@ const skills = [{
         value: 60,
     },
     {
-        name: "Jquery",
+        name: "Machine Learning",
+        value: 90,
+    },
+    {
+        name: "Deep Learning",
         value: 85,
     },
 ];
@@ -136,9 +141,9 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "name@domain.com",
-    YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "ranabiswajit911@gmail.com",
+    YOUR_FONE: "+91 790105640",
+    description: "Send Me a Mail",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_id",
@@ -147,10 +152,10 @@ const contactConfig = {
 };
 
 const socialprofils = {
-    github: "https://github.com",
-    facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    github: "https://github.com/biswajit-github-2022",
+    facebook: "https://www.facebook.com/biswajitrana13/",
+    linkedin: "https://www.linkedin.com/in/biswajit-rana/",
+    twitter: "https://x.com/B_R_0_0",
 };
 export {
     meta,
