@@ -20,45 +20,84 @@ export const Portfolio = () => {
           </Col>
         </Row>
         
-        <div>Curriculam Vieta</div>
+        <div class="header">Curriculam Vieta</div>
         <div className="mb-5 po_items_ho">
           {cv.map((data, i) => {
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
                 <div className="content">
+                  <h2>{data.header}</h2>
                   <p>{data.description}</p>
-                  <a href={data.link}>Source</a>
+                  <a href={data.link}>View & Download</a>
                 </div>
               </div>
             );
           })}
         </div>
 
-        <div>Deep Learning</div>
+        <div class="header">Artificial Intelligence</div>
+        <div className="mb-5 po_items_ho">
+          {ai.map((data, i) => {
+            return (
+              <div key={i} className="po_item">
+                <img src={data.img} alt="" />
+                <div className="content">
+                  <h2>{data.header}</h2>
+                  <p>{data.description}</p>
+                  <a href={data.link}>GitHub Source</a>
+                  {data.web && <a href={data.web}>Visit Web Page</a>}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        <div class="header">Deep Learning</div>
         <div className="mb-5 po_items_ho">
           {deeplearning.map((data, i) => {
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
                 <div className="content">
+                  <h2>{data.header}</h2>
                   <p>{data.description}</p>
-                  <a href={data.link}>Source</a>
+                  <a href={data.link}>GitHub Source</a>
+                  {data.web && <a href={data.web}>Visit Web Page</a>}
                 </div>
               </div>
             );
           })}
         </div>
 
-        <div>Machine Learning</div>
+        <div class="header">Machine Learning</div>
         <div className="mb-5 po_items_ho">
           {machinelearning.map((data, i) => {
             return (
               <div key={i} className="po_item">
                 <img src={data.img} alt="" />
                 <div className="content">
+                  <h2>{data.header}</h2>
                   <p>{data.description}</p>
-                  <a href={data.link}>Source</a>
+                  <a href={data.link}>GitHub Source</a>
+                  {data.web && <a href={data.web}>Visit Web Page</a>}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+        <div class="header">Web Development</div>
+        <div className="mb-5 po_items_ho">
+          {WebDev.map((data, i) => {
+            return (
+              <div key={i} className="po_item">
+                <img src={data.img} alt="" />
+                <div className="content">
+                  <h2>{data.header}</h2>
+                  <p>{data.description}</p>
+                  <a href={data.link}>GitHub Source</a>
+                  {data.web && <a href={data.web}>Visit Web Page</a>}
                 </div>
               </div>
             );
