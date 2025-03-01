@@ -119,9 +119,9 @@ const ai= [
 ]
 const cv= [
     {
-        img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/IMG_20241214_170536-modified.jpg",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/cv.jpg",
+        description: "Compilation of Projects done till date",
+        link: "https://drive.google.com/file/d/1z8rro7Sh_Noppsg8ees4d07tS4-ZZxwi/view",
     },
 ]
 
