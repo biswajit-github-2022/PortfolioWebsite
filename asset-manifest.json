@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.css": "/PortfolioWebsite/static/css/main.507a3381.css",
+    "main.js": "/PortfolioWebsite/static/js/main.ae10d441.js",
+    "index.html": "/PortfolioWebsite/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.507a3381.css",
+    "static/js/main.ae10d441.js"
+  ]
+}
