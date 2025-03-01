@@ -1,7 +1,7 @@
 const logotext = "BISWAJIT";
 const meta = {
     title: "Biswajit Rana",
-    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    // description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
@@ -88,113 +88,107 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
-        img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/IMG_20241214_170536-modified.jpg",
-        description: "Curriculum vitae",
-        link: "#",
-    },
+
+const deeplearning= [
     {
         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/DL-modified.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
-    {
-        img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/AI-modified.png",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+]
+const machinelearning= [
     {
         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/ML-modified.png",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Curriculum vitae",
         link: "#",
     },
+]
+const WebDev= [
     {
-        img: "https://picsum.photos/400/300/?grayscale",
+        img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/Webdev.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
+]
+const ai= [
     {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/Webdev.png",
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
+]
+const cv= [
+    {
+        img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/IMG_20241214_170536-modified.jpg",
+        description: "The wisdom of life consists in the elimination of non-essentials.",
+        link: "#",
+    },
+]
 
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-];
+// const dataportfolio = [
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/ML-modified.png",
+//         description: "Curriculum vitae",
+//         link: "#",
+//     },
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/ML-modified.png",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/ML-modified.png",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/ML-modified.png",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     // ----------------------------------------
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/IMG_20241214_170536-modified.jpg",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/Webdev.png",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/Webdev.png",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/Webdev.png",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     // ----------------------------------------
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/DL-modified.png",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/DL-modified.png",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/DL-modified.png",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+//     {
+//         img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/DL-modified.png",
+//         description: "The wisdom of life consists in the elimination of non-essentials.",
+//         link: "#",
+//     },
+// ];
 
 const contactConfig = {
     YOUR_EMAIL: "ranabiswajit911@gmail.com",
@@ -216,7 +210,7 @@ const socialprofils = {
 export {
     meta,
     dataabout,
-    dataportfolio,
+    // dataportfolio,
     worktimeline,
     skills,
     services,
@@ -224,4 +218,10 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+
+    deeplearning,
+    machinelearning,
+    WebDev,
+    ai,
+    cv
 };
