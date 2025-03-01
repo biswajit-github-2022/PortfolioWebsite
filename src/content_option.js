@@ -18,21 +18,25 @@ const introdata = {
 
 const dataabout = {
     title: "About my self",
-    aboutme: "I am Currently doing Masters (M.Sc) in Data Science (Big Data Analytics) in 4th Semester from Ramakrishna Mission Vivekananda Educational and Research Institute",
+    aboutme: `I am Currently doing Masters (M.Sc) in Data Science (Big Data Analytics) in 4th Semester from Ramakrishna Mission Vivekananda Educational and Research Institute.
+                Also Working as AI Appliocations Engineer Intern @GoVivace `,
 };
 const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
+        jobtitle: "RamaKrishna Mission Vivekananda Educational and Research Institute, Belur",
+        where: "M.Sc. Big Data Analytics (Data Science)",
+        score: "7.4",
         date: "2020",
     },
     {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
+        jobtitle: "Vidyasagar University(Panskura Banamali College)",
+        where: "B.Sc. Computer Science",
+        score: "8.8",
         date: "2019",
     },
     {
-        jobtitle: "Designer of week",
-        where: "ALquds",
+        jobtitle: "Panskura Bradley Birt High School",
+        where: "Higher Secondary",
+        score: "87.4%",
         date: "2019",
     },
 ];
@@ -61,25 +65,30 @@ const skills = [{
         name: "Deep Learning",
         value: 85,
     },
+    {
+        name: "Artificial Intelligence",
+        value: 75,
+    },
 ];
 
 const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "AI and ML",
+        description: `Machine Learning Algorithms, Deep learning, Computer Vision, AI, Seq-to-Seq models
+                      Python, Numpy, Pandas, OpenCV`,
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "BackEnd Development",
+        description: "PHP, Node js, Express js, MySql, MongoDB",
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "FrontEnnd Development",
+        description: "React, Angular, Tailwind, Bootstrap, Electron",
     },
 ];
 
 const dataportfolio = [{
         img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        description: "Curriculum vitae",
         link: "#",
     },
     {
