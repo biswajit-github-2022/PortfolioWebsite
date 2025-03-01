@@ -13,7 +13,8 @@ const introdata = {
     },
     description: "Currently doing M.Sc. in Data science from \n Ramakrishna Mission Vivekananda Educational and Research Institute",
     // your_img_url: "https://raw.githubusercontent.com/biswajit-github-2022/private-repo/refs/heads/main/Snapchat-1239211503.jpg?token=GHSAT0AAAAAAC7PSH454GP26ZD5RCR2XD6GZ6CBCKQ",
-    your_img_url: "https://cdn.pixabay.com/photo/2022/10/24/14/48/forest-7543646_1280.jpg",
+    // your_img_url: "https://cdn.pixabay.com/photo/2022/10/24/14/48/forest-7543646_1280.jpg",
+    your_img_url: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/IMG_20241214_170536-modified.jpg",
 };
 
 const dataabout = {
@@ -87,7 +88,7 @@ const services = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: "https://raw.githubusercontent.com/biswajit-github-2022/PortfolioWebsite/refs/heads/main/src/assets/website_images/IMG_20241214_170536-modified.jpg",
         description: "Curriculum vitae",
         link: "#",
     },
