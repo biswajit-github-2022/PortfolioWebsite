@@ -1,15 +1,16 @@
 const logotext = "BISWAJIT";
 const meta = {
     title: "Biswajit Rana",
-    // description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
+    description: "I’m John Doe data scientist _ Full stack devloper,currently working in Berlin",
 };
 
 const introdata = {
-    title: "I’m Biswajit Rana",
+    title: "I’m Biswajit Rana ",
     animated: {
-        first: "I love coding",
-        second: "I love studying DeepLearning models",
-        third: "I develop Websites for AI applications",
+        first: "Data Science Student 🎓",
+        second: "Web Developer 🖥️",
+        third: "AI Enthusiast 🕹️",
+        forth: "ML Enthusiast 🤖",
     },
     description: "Currently doing M.Sc. in Data science from \n Ramakrishna Mission Vivekananda Educational and Research Institute",
     // your_img_url: "https://raw.githubusercontent.com/biswajit-github-2022/private-repo/refs/heads/main/Snapchat-1239211503.jpg?token=GHSAT0AAAAAAC7PSH454GP26ZD5RCR2XD6GZ6CBCKQ",
@@ -309,13 +310,15 @@ const cv= [
 
 const contactConfig = {
     YOUR_EMAIL: "ranabiswajit911@gmail.com",
+    YOUR_SECOND_EMAIL: "ranabsiwajitrana2019@gmail.com",
     YOUR_FONE: "+91 790105640",
     description: "Send Me a Mail",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_to3o3bi",
+    YOUR_TEMPLATE_ID: "template_usunkxb",
+    // YOUR_USER_ID: "rBo5Xah9m-UhbIQEKsCFf",
+    YOUR_USER_ID: "1-ZVoww_bedJLCHVW",
 };
 
 const socialprofils = {
